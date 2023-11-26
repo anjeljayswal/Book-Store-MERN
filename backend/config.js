@@ -1,4 +1,4 @@
-export const PORT = 5555;
+export const PORT = process.env.PORT || 5555;
 
 export const mongoDBURL =
   'mongodb+srv://anjalijayswal9910:8sHAfzXixmaw69oB@cluster0.5gmxqsw.mongodb.net/?retryWrites=true&w=majority';
